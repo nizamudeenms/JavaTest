@@ -33,7 +33,7 @@ public class IcmpProtoThread extends Thread {
 			while ((s = inputStream.readLine()) != null) {
 				System.out.println(s);
 				// the following statement is used to log any messages
-				logger.info("s : " + s);
+				logger.info(s);
 
 			}
 			System.out.println("ICMP  finished");

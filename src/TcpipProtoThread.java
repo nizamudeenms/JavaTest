@@ -37,7 +37,7 @@ public class TcpipProtoThread extends Thread {
 			e1.printStackTrace();
 		}
 
-		while (true) {
+//		while (true) {
 			try {
 				System.out.println("tcip ip host:" + commandToRun);
 
@@ -71,7 +71,8 @@ public class TcpipProtoThread extends Thread {
 				System.out.println("Error : " + e.getMessage());
 				logger.info(e.getMessage());
 			}
+			System.out.println("tcpip  finished");
 		}
-	}
+//	}
 
 }

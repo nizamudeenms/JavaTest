@@ -38,5 +38,9 @@ public class TraceRouteThread extends Thread {
 		{
 			e.printStackTrace();
 		}
+
+		Report report = new Report();
+		report.start();
+		
 	}
 }

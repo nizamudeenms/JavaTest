@@ -38,9 +38,6 @@ public class Test {
 			TraceRouteThread tr = new TraceRouteThread(tcommand+" "+host);
 			tr.start();
 			
-			Report report = new Report();
-			report.start();
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
